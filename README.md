@@ -27,6 +27,7 @@ Instead of a standard Breadth-First Search which grows exponentially ($O(b^d)$),
 
 ### 2. Adamic-Adar Index
 Used for link prediction, this algorithm assigns a weight to common neighbors. It assumes that sharing "rare" neighbors (nodes with low degrees) is more significant than sharing "popular" neighbors.
+
 $$\text{Score}(x, y) = \sum_{z \in N(x) \cap N(y)} \frac{1}{\log |N(z)|}$$
 
 ### 3. Optimization Strategy
@@ -39,8 +40,8 @@ To prevent database bottlenecks during traversal:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/social-graph-platform.git](https://github.com/yourusername/social-graph-platform.git)
-    cd social-graph-platform
+    git clone [https://github.com/HyphenAlpha456/Social_graph_visulalizer.git](https://github.com/HyphenAlpha456/Social_graph_visulalizer.git)
+    cd Social_graph_visulalizer
     ```
 
 2.  **Server Setup**
